@@ -1,255 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Happy Birthday</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Red store</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-<div class="header">
     <div class="container">
-        <div class="nav-bar">
-            <div class="logo">
-                <img src="./Images/logo.png" alt="" width="125px">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Account</a></li>
-                </ul>
-            </nav>
-            <img src="./Images/cart.png" alt="" width="30px" height="30px">
-        </div>
         <div class="row">
-            <div class="col-2">
-               <h1>give your workout<br>a new style</h1>
-               <p>sucess isn't always about greatness.It's about
-                consistency. Consistent<br>hard work gain sucess.Greatness
-                will come.
-               </p>
-               <a href="" class="btn">Explore Now &#8594;</a>
-            </div>
-            
-            <div class="col-2">
-                <img src="./Images/image1.png">
-            </div>
-        </div>
-    </div>
+           <div class="loader">
+    <button id="play"> Let's Celebrate! 🎂</button>
 </div>
 
-
-<!-- -------featured categories-start ------- -->
-<div class="categories">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-             <img src="./Images/category-1.jpg" alt="">
-            </div>
-            <div class="col-3">
-                <img src="./Images/category-2.jpg" alt="">
-            </div>
-            <div class="col-3">
-                <img src="./Images/category-3.jpg" alt="">
-            </div>
         </div>
     </div>
-    
-</div>
-<!-- -------featured categories-end ------- -->
-
-
-<!-- -------featured products------- -->
-    <div class="small-container">   
-            <h2 class="title">feutured products</h2>
+    <audio class="song" controls loop>
+        <source src="music.mp3">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <canvas id="confetti"></canvas>
+    <div class="main">
+        <div class="container pt-5">
             <div class="row">
-                  <div class="col-4">
-                    <img src="./Images/product-1.jpg">
-                    <h4>Red printed T-Shirt</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p> $50.00</p>
-                    
+
+                <div class="col-12 col-xl-6 mx-auto">
+                    <img src="img/banner.png" alt="">
                 </div>
-                <div class="col-4">
-                    <img src="./Images/product-2.jpg  ">
-                    <h4>Red printed T-Shirt</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p> $50.00</p>
-                    
+
+                <div class="col-12  text-center mt-2">
+                    <div id="name" class="area">💖Noore💖</div>
                 </div>
-                <div class="col-4">
-                    <img src="./Images/product-3.jpg">
-                    <h4>Red printed T-Shirt</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
+
+                <div class="col-12 text-center">
+                    <div class="type-wrap">
+                   <div id="typed-strings" class="typing">
+    <h2>🌸 Have a wonderful day 🌸</h2>
+    <h2>😊 Filled with joy and happiness.🎈</h2>
+    <h2>💖 You make my world brighter <br> every single day. ✨</h2>
+    <h2>🙏 Thank you for your endless <br> love and support. 🤗</h2>
+    <h2>🎁 May all your dreams come<br> true, today and always. 🌟</h2>
+    <h2>🥰 I’m so lucky to have you <br> in my life. ❤</h2>
+</div>
+
+                        <span id="typed" style="white-space:pre;"></span>
                     </div>
-                    <p> $50.00</p>
-                    
                 </div>
-                <div class="col-4">
-                    <img src="./Images/product-4.jpg">
-                    <h4>Red printed T-Shirt</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p> $50.00</p>
-                    
+
+                <div class="col-12 col-xl-3 cake">
+                    <img src="img/cake.gif" alt="">
                 </div>
             </div>
-            <h2 class="title">Latest Products</h2>
-            <div class="row">
-                <div class="col-4">
-                  <img src="./Images/product-5.jpg">
-                  <h4>Red printed T-Shirt</h4>
-                  <div class="rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star-o"></i>
-                  </div>
-                  <p> $50.00</p>
-                  
-              </div>
-              <div class="col-4">
-                  <img src="./Images/product-6.jpg  ">
-                  <h4>Red printed T-Shirt</h4>
-                  <div class="rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star-half-o"></i>
-                      <i class="fa fa-star-o"></i>
-                  </div>
-                  <p> $50.00</p>
-                  
-              </div>
-              <div class="col-4">
-                  <img src="./Images/product-7.jpg">
-                  <h4>Red printed T-Shirt</h4>
-                  <div class="rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star-half-o"></i>
-                  </div>
-                  <p> $50.00</p>
-                  
-              </div>
-              <div class="col-4">
-                  <img src="./Images/product-8.jpg">
-                  <h4>Red printed T-Shirt</h4>
-                  <div class="rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star-o"></i>
-                  </div>
-                  <p> $50.00</p>
-                             
-              </div>
-          </div>
-          <div class="row">
-            <div class="col-4">
-              <img src="./Images/product-9.jpg">
-              <h4>Red printed T-Shirt</h4>
-              <div class="rating">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star-o"></i>
-              </div>
-              <p> $50.00</p>
-              
-          </div>
-          <div class="col-4">
-              <img src="./Images/product-10.jpg  ">
-              <h4>Red printed T-Shirt</h4>
-              <div class="rating">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star-half-o"></i>
-                  <i class="fa fa-star-o"></i>
-              </div>
-              <p> $50.00</p>
-              
-          </div>
-          <div class="col-4">
-              <img src="./Images/product-11.jpg">
-              <h4>Red printed T-Shirt</h4>
-              <div class="rating">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star-half-o"></i>
-              </div>
-              <p> $50.00</p>
-              
-          </div>
-          <div class="col-4">
-              <img src="./Images/product-12.jpg">
-              <h4>Red printed T-Shirt</h4>
-              <div class="rating">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star-o"></i>
-              </div>
-              <p> $50.00</p>
-              
-          </div>
-      </div>
+        </div>
+        <img src="img/Balloon-Border.png" width="100%" class="balloon-border">
     </div>
- <!-- --------offer--------- -->
-      <div class="offer">
-          <div class="small-container">
-              <div class="row">
-                  <div class="col-2">
-                     <img src="./Images/exclusive.png" class="offer-img">
-                  </div>
-                  <div class="col-2">
-                      <P>Exclusively Available on   Redstore</P>
-                      <hs1>Smart Band 4</hs1>
-
-                  </div>
-
-              </div>
-
-          </div>
-
-      </div>
-
 </body>
+<script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/script.js"></script>
+
 </html>
